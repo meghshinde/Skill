@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+
+    
+    <h1>Welcome to My Web Page</h1>
+    <p>This is a paragraph introducing the basic HTML elements used in this page.</p>
+
+    
+    <h2>Sample Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>28</td>
+        </tr>
+    </table>
+
+    <!-- List -->
+    <h2>My To-Do List</h2>
+    <ul>
+        <li>Learn HTML</li>
+        <li>Practice CSS</li>
+        <li>Start JavaScript</li>
+    </ul>
+
+    
+    <h2>Useful Link</h2>
+    <a href="https://www.geeksforgeeks.org" target="_blank">Visit GeeksforGeeks</a>
+
+    
+    <h2>My Favorite Image</h2>
+    <img src="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200-1.png" alt="GeeksForGeeks Logo" width="200">
+
+    
+    <h2>Sample Audio</h2>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+  
+    <h2>Sample Video</h2>
+    <video width="320" height="240" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
